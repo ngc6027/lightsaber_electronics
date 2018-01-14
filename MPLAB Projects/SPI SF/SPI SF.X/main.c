@@ -57,6 +57,8 @@
  */
 int main(int argc, char** argv) {
 
+    INTDisableInterrupts();
+    
     initialize_spi();
     INTEnableSystemMultiVectoredInt();
     
